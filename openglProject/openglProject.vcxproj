@@ -140,17 +140,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="ObjLoader.cpp" />
     <ClCompile Include="openglProject.cpp" />
     <ClCompile Include="stb_image.cpp" />
-    <ClCompile Include="Textura.cpp" />
+    <ClCompile Include="Vetor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cg.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="ObjLoader.h" />
     <ClInclude Include="stbimage.h" />
-    <ClInclude Include="Textura.h" />
+    <ClInclude Include="Vetor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
